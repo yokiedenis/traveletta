@@ -7,10 +7,8 @@ export default function FeaturedPackages() {
   const [packages, setPackages] = useState<Package[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [selectedPackage, setSelectedPackage] = useState<Package | null>(null);
 
-  const handleBookNow = (pkg: Package) => {
-    setSelectedPackage(pkg);
+  const handleBookNow = () => {
     const element = document.getElementById('contact');
     element?.scrollIntoView({ behavior: 'smooth' });
   };

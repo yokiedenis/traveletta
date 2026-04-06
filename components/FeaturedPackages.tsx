@@ -102,7 +102,7 @@ export default function FeaturedPackages() {
                 </div>
 
                 <button
-                  onClick={() => handleBookNow(pkg)}
+                  onClick={() => handleBookNow()}
                   className="w-full mt-6 btn btn-primary bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-3 rounded-lg transition transform hover:shadow-lg"
                 >
                   👉 Book Now
